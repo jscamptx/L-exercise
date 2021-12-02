@@ -1,6 +1,6 @@
 # create AKS cluster
 
-$subID = "d355c0a2-8853-43b3-b11f-4b1379d7751b"
+$subID = "xxxxx" #put in real value here
 $resourceGroup = "psResourceGroup"
 $location = "eastus"
 $clusterName = "psAKSCluster"

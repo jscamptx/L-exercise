@@ -7,4 +7,4 @@ $clusterName = "psAKSCluster"
 
 Set-AzContext -SubscriptionId $subID
 New-AzResourceGroup -Name $resourceGroup -Location $location
-New-AzAksCluster -ResourceGroupName $resourceGroup -Name $clusterName -NodeCount 1
+New-AzAksCluster -ResourceGroupName $resourceGroup -Name $clusterName -NodeCount 2
